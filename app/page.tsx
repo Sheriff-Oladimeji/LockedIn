@@ -15,7 +15,7 @@ export default function Home() {
     <main className="min-h-screen bg-background p-8">
       <div className="max-w-4xl mx-auto space-y-8">
         <div className="flex justify-between items-center">
-          <h1 className="text-3xl font-bold">LockIn</h1>
+          <h1 className="text-3xl font-bold">LockedIn</h1>
           <div className="flex gap-2">
             <ThemeToggle />
             <Button
