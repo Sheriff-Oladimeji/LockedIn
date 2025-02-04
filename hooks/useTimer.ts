@@ -13,6 +13,7 @@ export const useTimer = () => {
     toggleMode,
     tick,
     addSession,
+    stopTimer,
   } = useStore();
 
   const handleTimerComplete = useCallback(() => {
@@ -75,6 +76,7 @@ export const useTimer = () => {
     pauseTimer,
     resetTimer,
     toggleMode,
+    stopTimer,
   };
 };
 
