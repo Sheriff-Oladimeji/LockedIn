@@ -32,9 +32,7 @@ export const useTimer = () => {
       if (typeof window !== 'undefined' && 'Notification' in window) {
         Notification.requestPermission().then((permission) => {
           if (permission === 'granted') {
-            new Notification(
-              `${currentSession.mode === 'work' ? 'Work' : 'Rest'} session complete!`
-            );
+            new Notification(`${currentSession.mode === 'work' ? 'Work' : 'Rest'} session complete!`);
           }
         });
       }
